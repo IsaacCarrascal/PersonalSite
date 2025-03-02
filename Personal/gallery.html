@@ -6,50 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <link rel="icon" type="image/x-icon" href="icons/Icon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <img src="icons/Main.jpg" width=150 px; height=150 px; alt="Isaac Carrascal">
+    <div class="Header">
+        <img id="MainIMG" src="Icons/Main.jpg" alt="Isaac Carrascal">
         <h1>Isaac Carrascal</h1>
-        <h2>Bibliografia</h2>
+        <h2>Galeria</h2>
+    </div>
+
+    <div class="index">
         <nav>
+            <h2>Index</h2>
             <ul>
-                <li><a href="index.html">Pagina principal</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="about.html">Acerca de</a></li>
                 <li><a href="gallery.html">Galeria</a></li>
                 <li><a href="contact.html">Contacto</a></li>
+
         </nav>
-    </header>
+    </div>
 
-    <section>
-        <div>
-            <img src="Img/Misha.jpg" alt="Imagen1" width="300" height="300">
-            <img src="Img/img2.jpg" alt="Imagen2" width="300" height="300">
-            <video controls>
-                <source src="Img/Video1.mp4" type="video/mp4" width="300" height="300">
-            </video>
-            <img src="Img/img3.jpg" alt="Imagen3" width="300" height="300">
-            <img src="Img/img4.jpg" alt="Imagen4" width="300" height="300">
-            <video controls>
-                <source src="Img/Video2.mp4" type="video/mp4" width="300" height="300">
-            </video>
+    <div class="content">
+        <section class="text">
+            <div class="gallery">
+                <img src="Img/Misha.jpg" alt="Imagen1" width="300" height="300">
+                <img src="Img/img2.jpg" alt="Imagen2" width="300" height="300">
+                <video controls>
+                    <source src="Img/Video1.mp4" type="video/mp4" width="300" height="300">
+                </video>
+                <img src="Img/img3.jpg" alt="Imagen3" width="300" height="300">
+                <img src="Img/img4.jpg" alt="Imagen4" width="300" height="300">
+                <video controls>
+                    <source src="Img/Video2.mp4" type="video/mp4" width="300" height="300">
+                </video>
 
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <section>
-        <h2>Cargar Archivo</h2>
-        <form action="#" method="post" enctype="multipart/form-data">
-            <input type="file" name="archivo">
-            <button type="submit">Subir</button>
-        </form>
-    </section>
+        <section class="text">
+            <h2>Cargar Archivo</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="archivo">
+                <button type="submit">Subir</button>
+            </form>
+        </section>
+    </div>
 
-    <footer>
+    <div class="links">
+        <aside class="text">
+            <h2>Redes Sociales</h2>
+            <ul>
+                <li> <img src="icons/Facebook.png" alt="Facebook" width=20 px; height=20 px;> <a
+                        href="https://www.facebook.com/isaac.cornejo.395">Facebook: Isaac Carrascal</a></li>
+                <li> <img src="icons/Insta.png" alt="Instagram" width=20 px; height=20 px;> <a
+                        href="https://www.instagram.com/isaaccarrascal">Instagram: @isaaccarrascal</a></li>
+                <li> <img src="Icons/Twitter.png" alt="Twitter" width=20 px; height=20 px;> <a
+                        href="https://x.com/Nunca_seguidor">Twitter: @Nunca_seguidor</a></li>
+                <li> <img src="Icons/github.png" alt="Github" width=20 px; height=20 px;> <a
+                        href="https://github.com/isaaccarrascal">GitHub: Isaaccarrascal</a></li>
+            </ul>
+
+        </aside>
+    </div>
+    <div class="footer">
         <p>Derechos de autor &copy; 2025</p>
         <p>Contacto: isaaccarrascal@gmail.com</p>
-    </footer>
+    </div>
+
+
 </body>
 
 </html>
